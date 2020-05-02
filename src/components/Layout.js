@@ -7,7 +7,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import Navbar from "./Navbar"
 import "./layout.scss"
 import logo from "../images/assets/logo-wansite.svg"
 
@@ -60,7 +59,6 @@ export default class Layout extends React.Component {
         className={className}
         ref={this.siteContainer}
         id="page-top">
-        <Navbar nav={this.props.nav} />
         <main>{this.props.children}</main>
         <footer className="footer">
           <div className="container">

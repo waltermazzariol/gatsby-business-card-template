@@ -1,24 +1,50 @@
 // Styling for the masthead
 .hero {
 	background-attachment: scroll !important;
-	margin-bottom: 1rem;
+	min-height: calc(100vh - 52px);
+
 	&-wrapper {
-		min-height: 80vh;
-		text-align: center;
-		padding-top: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: calc(100vh - 52px);
 	}
-	&-arrow {
-		text-align: center;
-		padding-bottom: 3rem;
-		img {
-			max-width: 35px;
+	&-content{
+		background-color: $darker-black;
+		opacity: 0.9;
+		border-radius: 5px;
+		padding: 3rem 3rem;
+		max-width: 90%;
+		width: 66rem;
+	}
+
+	&-image{
+		&-wrapper{
+			max-width: 200px;
+			margin: 0 auto;
+		}
+		img{
+			border-radius: 50%;
 		}
 	}
+	&-social{
+		display: flex;
+		justify-content: center;
+		margin-top: 3rem;
+	i{
+		color: $light-gray;
+		margin-left: 1rem;
+		&:hover{
+			color: $primary;
+		}
+		
+	}}
 	h1.hero-title {
 		color: white;
 		font-size: 2rem;
 		font-weight: 700;
 		text-align: center;
+		margin-bottom: 2rem;
 	}
 	.hero-subtitle {
 		color: $light-gray;
@@ -51,7 +77,7 @@
 	}
 	@include media-breakpoint-up(xl) {
 		background-attachment: fixed !important;
-		
+
 		h1.hero-title {
 			font-size: 5rem;
 			max-width: 100%;

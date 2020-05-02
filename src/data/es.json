@@ -2,164 +2,16 @@
     "general": {
         "path": "/",
         "siteurl": "https://modest-villani-fa0160.netlify.app",
-        "seo-description": "React Developer - Est 1989",
+        "seo-description": "Designer - Based in Barcelona - est. 1989",
         "ua": "",
         "lang": "en"
     },
-    "navigation": {
-        "title": "John Doe",
-        "logo-active": false,
-        "logo-url": "../images/assets/logo-wansite.svg",
-        "cta-button": "whatsapp",
-        "cta-link": "https://wa.me/555555555",
-        "menu": [
-            {
-                "nav": "Portfolio",
-                "link": "#portfolio"
-            },
-            {
-                "nav": "Some Pictures",
-                "link": "#gallery"
-            },
-            {
-                "nav": "Biography",
-                "link": "#about"
-            },
-            {
-                "nav": "Reviews",
-                "link": "#reviews"
-            },
-            {
-                "nav": "Contact",
-                "link": "#contact"
-            }
-        ]
-    },
+    
     "hero": {
-        "title": "Hey, I´m Joh Doe",
-        "subtitle": "Developer - Barcelona - est. 1989 ",
-        "image": "./images/hero.jpg"
-    },
-    "gallery": {
-        "id": 2,
-        "title": "Some Pictures",
-        "gallery": [
-            {
-                "image": "./images/gallery/1.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "image": "./images/gallery/2.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "image": "./images/gallery/3.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "image": "./images/gallery/4.jpg",
-                "alt": "imagen 1"
-            }
-        ]
-    },
-    "portfolio": {
-        "id": 1,
-        "title": "Portfolio",
-        "projects": [
-            {
-                "name": "Personal Trainer",
-                "type": "React - Frontend",
-                "link": "https://google.com",
-                "image": "./images/portfolio/1.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Best Burger in Town",
-                "type": "Delivery System",
-                "link": "https://google.com",
-                "image": "./images/portfolio/2.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Tattoo Shop",
-                "type": "Appointment System",
-                "link": "https://google.com",
-                "image": "./images/portfolio/3.jpg",
-                "alt": "imagen 1"
-            }
-        ]
-    },
-    "about": {
-        "id": 3,
-        "title": "Biography",
-        "text": "Spain-based frontend/backennd developer, political activist, and film director, active since the 2000s. His satirical designs art and subversive epigrams combine dark humour with graffiti executed in a distinctive stenciling technique. His works of political and social commentary have been featured on streets, walls, and bridges of cities throughout the world. Banksy's work grew out of the Bristol underground scene, which involved collaborations between artists and musicians. \n Spain-based frontend/backennd developer, political activist, and film director, active since the 2000s. His satirical designs art and subversive epigrams combine dark humour with graffiti executed in a distinctive stenciling technique. His works of political and social commentary have been featured on streets, walls, and bridges of cities throughout the world. Banksy's work grew out of the Bristol underground scene, which involved collaborations between artists and musicians.",
-        "list": [
-            {
-                "text": "React"
-            },
-            {
-                "text": "Angular"
-            },
-            {
-                "text": "HTML5"
-            },
-            {
-                "text": "PHP"
-            },
-            {
-                "text": "AWS"
-            },
-            {
-                "text": "CSS3"
-            }
-        ],
-        "image": "./images/profile.jpg"
-    },
-    "services": [
-        {
-            "title": "Designer",
-            "description": "Product development is my focus in recent years, with my team we are in charge of constantly evolving and improving technological products based on the needs of users.",
-            "icon": "../images/assets/process_notebook.svg"
-        },
-        {
-            "title": "Fontend",
-            "description": "Product development is my focus in recent years, with my team we are in charge of constantly evolving and improving technological products based on the needs of users.",
-            "icon": "../images/assets/process_stack.svg"
-        },
-        {
-            "title": "Backend",
-            "description": "Product development is my focus in recent years, with my team we are in charge of constantly evolving and improving technological products based on the needs of users.",
-            "icon": "../images/assets/process_arrow.svg"
-        },
-        {
-            "title": "Architect",
-            "description": "Product development is my focus in recent years, with my team we are in charge of constantly evolving and improving technological products based on the needs of users.",
-            "icon": "../images/assets/process_mixer.svg"
-        }
-    ],
-    "team": {
-        "title": "Reviews",
-        "person": [
-            {
-                "name": "Andrea Ruiz",
-                "position": "Tatto Store",
-                "source": "Linkedin",
-                "image": "./images/testimonials/1.jpg",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-            },
-            {
-                "name": "Carlos Andrés",
-                "position": "Designer",
-                "source": "Linkedin",
-                "image": "./images/testimonials/2.jpg",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-            }
-        ]
-    },
-    "contact": {
-        "phone": "+346666666",
-        "email": "johndoe@gmail.com",
-        "address": "Barcelona, Spain",
+        "title": "Hey, I´m Lea Luna",
+        "subtitle": "Designer - Based in Barcelona - est. 1989",
+        "image": "./images/hero.jpg",
+        "image-profile": "./images/profile.jpg",
         "socialmedia": [
             {
                 "link": "https://instagram.com/johndoe",
@@ -168,18 +20,25 @@
             {
                 "link": "https://twitter.com/johndoe",
                 "name": "twitter"
+            },
+            {
+                "link": "https://twitter.com/johndoe",
+                "name": "linkedin"
+            },
+            {
+                "link": "https://twitter.com/johndoe",
+                "name": "github"
+            },
+            {
+                "link": "https://twitter.com/johndoe",
+                "name": "behance"
             }
-        ],
-        "image": "./images/footer.jpg"
+        ]
     },
     "tags": {
-        "viewmore": "Ver más",
-        "viewless": "Ver menos",
+
         "cookie-message": "We use our own and third party cookies to improve your user experience.",
         "cookie-accept": "Accept",
-        "event": "Título",
-        "date": "Fecha",
-        "location": "Locación",
         "not-found-title": "404 not found",
         "not-found-message": "You are in a wrong page.. Go back to our home",
         "not-found-btn": "Home"
