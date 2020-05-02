@@ -20,7 +20,7 @@ const NotFoundPage = (props) => (
         title={props.data.dataJson.hero.title} 
         lang={props.data.dataJson.general.lang} 
         metas={props.data.dataJson.general} 
-        image={props.data.dataJson.hero.image.childImageSharp} />
+        image={props.data.dataJson.hero.image_profile.childImageSharp} />
     <Hero data={props.data.dataJson.hero} />
     <div className="container my-5">
       <div className="row">
