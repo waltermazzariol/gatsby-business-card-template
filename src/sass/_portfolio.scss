@@ -1,0 +1,36 @@
+.portfolio {
+  margin-bottom: 2rem;
+  &-box {
+    position: relative;
+      display: block;
+    &-shadow {
+      box-shadow: $text-shadow;
+    }
+    &-over {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      opacity: 0;
+      background: $image-color-hover;
+      transition: opacity 0.25s ease;
+    }
+    &:hover {
+      .portfolio-box-over {
+        opacity: 1;
+      }
+    }
+    &-title a {
+      font-size: 1.3rem;
+      
+    }
+    &-subtitle a {
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+// Styling for the masthead
+.hero {
+	background-attachment: scroll !important;
+	margin-bottom: 1rem;
+	&-wrapper {
+		min-height: 80vh;
+		text-align: center;
+		padding-top: 60px;
+	}
+	&-arrow {
+		text-align: center;
+		padding-bottom: 3rem;
+		img {
+			max-width: 35px;
+		}
+	}
+	h1.hero-title {
+		color: white;
+		font-size: 2rem;
+		font-weight: 700;
+		text-align: center;
+	}
+	.hero-subtitle {
+		color: $light-gray;
+		margin-left: 0.8rem;
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	@include media-breakpoint-up(md) {
+		background-attachment: scroll !important;
+
+		h1.hero-title {
+			font-size: 4.5rem;
+		}
+		.hero-subtitle {
+			font-size: 1.15rem;
+		}
+	}
+
+	@include media-breakpoint-up(lg) {
+		background-attachment: scroll !important;
+		
+		h1.hero-title {
+			font-size: 4.5rem;
+			text-align: center;
+		}
+		.hero-subtitle {
+			font-size: 1.15rem;
+		}
+	}
+	@include media-breakpoint-up(xl) {
+		background-attachment: fixed !important;
+		
+		h1.hero-title {
+			font-size: 5rem;
+			max-width: 100%;
+		}
+	}
+}
